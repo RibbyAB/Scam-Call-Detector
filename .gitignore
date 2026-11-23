@@ -1,0 +1,13 @@
+# data & model besar jangan di-push
+data/raw/audio/**/*.wav
+data/raw/audio/**/*.mp3
+data/raw/audio/**/*.m4a
+models/**/*
+!models/**/.gitkeep
+
+# environment
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
